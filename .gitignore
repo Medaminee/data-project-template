@@ -39,3 +39,4 @@ pytest*.log
 .env
 .venv
 venv/
+.ruff_cache
