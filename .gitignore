@@ -40,3 +40,4 @@ pytest*.log
 .venv
 venv/
 .ruff_cache
+.Ds_Store
