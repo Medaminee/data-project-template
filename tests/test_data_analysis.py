@@ -16,4 +16,4 @@ def test_filter_by_age():
     df = load_data('data/sample_data.csv')
     filtered_df = filter_by_age(df, 30)
     assert all(filtered_df['Age'] > 30)
-    assert len(filtered_df) == 2  # Expecting only Alice and David to be included
+    assert len(filtered_df) == 2
