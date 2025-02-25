@@ -1,6 +1,7 @@
 import os
 import sys
-sys.path.insert(0, os.path.abspath('../../data-project-template'))
+
+sys.path.insert(0, os.path.abspath("../../data-project-template"))
 
 # Configuration file for the Sphinx documentation builder.
 #
@@ -10,24 +11,24 @@ sys.path.insert(0, os.path.abspath('../../data-project-template'))
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'Data project template'
-copyright = '2025, Mohamed Amine Ben Amira'
-author = 'Mohamed Amine Ben Amira'
+project = "Data project template"
+copyright = "2025, Mohamed Amine Ben Amira"
+author = "Mohamed Amine Ben Amira"
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ['sphinx.ext.autodoc',
-              'sphinx.ext.viewcode',
-              ]
+extensions = [
+    "sphinx.ext.autodoc",
+    "sphinx.ext.viewcode",
+]
 
-templates_path = ['_templates']
+templates_path = ["_templates"]
 exclude_patterns = []
-
 
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-html_theme = 'alabaster'
-html_static_path = ['_static']
+html_theme = "alabaster"
+html_static_path = ["_static"]
