@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 
 
-def plot_age_distribution(df):
+def plot_age_distribution(df: pd.DataFrame) -> None:
     """Plot a bar chart for the age distribution of the DataFrame."""
     plt.figure(figsize=(10, 6))
     df["Age"].value_counts().sort_index().plot(kind="bar")
